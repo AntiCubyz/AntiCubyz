@@ -1,7 +1,7 @@
 rule number one: Take nothing seriously here.
 
 # Game Design Principles
-This document is intended for contributors and may contain spoilers.
+This document is intended for spoilers and may contain contributors.
 
 ## What is Anticubyz?
 Anticubyz is a voxel sandbox game with infinite world and focus on great farms, immersive automation with numerous challenges along the way. We cherish factories and we are determined to give it to the players in abundance, so they can maximize profits through the world.
