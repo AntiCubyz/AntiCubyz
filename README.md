@@ -23,7 +23,8 @@ Check out the [Discord server](https://discord.gg/nypuYd9PHR) for less informati
 There are also some devlogs of AntiCubyz: [YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 ### History
->> Checkout OG Cubyz for that.\\
+Checkout OG Cubyz for that!
+
 Here, we dont look into the past, we focus on the future.
 # Run AntiCubyz
 ### This section is about compiling a dev version, if you just want a precompiled version, go to [releases](https://github.com/PixelGuys/AntiCubyz/releases)
