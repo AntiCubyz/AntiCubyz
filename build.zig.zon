@@ -1,0 +1,55 @@
+.{
+	.name = .Cubyzig,
+	.fingerprint = 0x782a2e402c0ee887,
+	.version = "0.0.0",
+	.paths = .{""},
+	.dependencies = .{
+		.local = .{
+			.path = "../Cubyz-libs/zig-out", // Local alternative to the cubyz_deps below
+			.lazy = true,
+		},
+		.cubyz_deps_headers = .{
+			.url = "https://github.com/PixelGuys/Cubyz-Libs/releases/download/8/cubyz_deps_headers.tar.gz",
+			.hash = "N-V-__8AAI-aOwAGCfJiF1xWZSQ0yxGSyyuj-VO5P_UqqyJ0",
+		},
+		.cubyz_deps_aarch64_macos = .{
+			.url = "https://github.com/PixelGuys/Cubyz-Libs/releases/download/8/cubyz_deps_aarch64-macos-none.tar.gz",
+			.hash = "N-V-__8AAESlRAJiVpVgSi6YuJieVxeJkkCVVsorbxiSyRyZ",
+			.lazy = true,
+		},
+		.cubyz_deps_aarch64_linux = .{
+			.url = "https://github.com/PixelGuys/Cubyz-Libs/releases/download/8/cubyz_deps_aarch64-linux-musl.tar.gz",
+			.hash = "N-V-__8AADJklgJD6krSuvgtV1hLIkVBhgIjmFZVB-Yzu9F8",
+			.lazy = true,
+		},
+		.cubyz_deps_aarch64_windows = .{
+			.url = "https://github.com/PixelGuys/Cubyz-Libs/releases/download/8/cubyz_deps_aarch64-windows-gnu.tar.gz",
+			.hash = "N-V-__8AAAI8tQKULcx4VW98BqluDNYJhHtN2OBlFw2Cm19f",
+			.lazy = true,
+		},
+		.cubyz_deps_x86_64_macos = .{
+			.url = "https://github.com/PixelGuys/Cubyz-Libs/releases/download/8/cubyz_deps_x86_64-macos-none.tar.gz",
+			.hash = "N-V-__8AANi9PQLVH2WpYTmNnlcdBHDkNZI9yJz6fAznklHu",
+			.lazy = true,
+		},
+		.cubyz_deps_x86_64_linux = .{
+			.url = "https://github.com/PixelGuys/Cubyz-Libs/releases/download/8/cubyz_deps_x86_64-linux-musl.tar.gz",
+			.hash = "N-V-__8AAIKQlALN_67_ilCxZcxIGddSBBi7A4lVVa0jFeW9",
+			.lazy = true,
+		},
+		.cubyz_deps_x86_64_windows = .{
+			.url = "https://github.com/PixelGuys/Cubyz-Libs/releases/download/8/cubyz_deps_x86_64-windows-gnu.tar.gz",
+			.hash = "N-V-__8AAM4p1wKrLLOhfB8egk7fpA7WnEGIU46h_pKk8Xou",
+			.lazy = true,
+		},
+		.cubyz_large_assets = .{
+			.url = "https://github.com/PixelGuys/Cubyz-Assets/releases/download/0.1.0/assets.tar.gz",
+			.hash = "N-V-__8AACQYrweKK0-hEabTekSwmGwxKrIbdY_2QTOEA7TN",
+		},
+		.cubyz_test_runner = .{
+			.url = "https://github.com/PixelGuys/Cubyz-std-lib/archive/refs/tags/0.16.0-dev.1424+1.tar.gz",
+			.hash = "zig-0.0.0-Fp4XJAXmXQ1r23tqehV14LpPFILnnXSyg7bPitqs8mrf",
+			.lazy = true,
+		},
+	},
+}
