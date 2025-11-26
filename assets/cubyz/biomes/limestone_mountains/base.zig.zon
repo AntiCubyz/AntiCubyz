@@ -1,0 +1,46 @@
+.{
+	.properties = .{
+		.mountain,
+		.dry,
+		.hot,
+	},
+	.minHeightLimit = 7,
+	.minHeight = 64,
+	.maxHeight = 256,
+	.smoothBeaches = true,
+
+	.roughness = 10,
+	.mountains = 100,
+	.stoneBlock = "cubyz:limestone",
+	.ground_structure = .{
+		"cubyz:dry_grass",
+		"0 to 3 cubyz:dirt",
+	},
+	.structures = .{
+		.{
+			.id = "cubyz:ground_patch",
+			.block = "cubyz:grass",
+			.chance = 0.025,
+			.width = 16,
+			.variation = 4,
+			.depth = 2,
+			.smoothness = 0.1,
+		},
+		.{
+			.id = "cubyz:sbb",
+			.structure = "cubyz:tree/baobab/young",
+			.placeMode = .degradable,
+			.chance = 0.05,
+		},
+		.{
+			.id = "cubyz:simple_tree",
+			.leaves = "cubyz:leaves/oak",
+			.log = "cubyz:oak_log",
+			.top = "cubyz:oak_top",
+			.chance = 0.075,
+			.type = .round,
+			.height = 3,
+			.height_variation = 3,
+		},
+	},
+}

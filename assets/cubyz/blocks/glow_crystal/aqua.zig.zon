@@ -1,0 +1,4 @@
+.{
+	.emittedLight = 0x16a7da,
+	.texture = "cubyz:glow_crystal/aqua",
+}

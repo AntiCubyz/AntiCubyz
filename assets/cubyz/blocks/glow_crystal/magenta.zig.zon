@@ -1,0 +1,4 @@
+.{
+	.emittedLight = 0xf260ca,
+	.texture = "cubyz:glow_crystal/magenta",
+}

@@ -1,0 +1,13 @@
+.{
+	.tags = .{.choppable, .wood},
+	.blockHealth = 8,
+	.drops = .{
+		.{.items = .{"cubyz:log/baobab"}},
+	},
+	.rotation = "cubyz:direction",
+	.model = "cubyz:cube",
+	.texture = "cubyz:baobab_log",
+	.texture_top = "cubyz:baobab_log",
+	.texture_bottom = "cubyz:baobab_log_top",
+	.decayProhibitor = true,
+}

@@ -1,0 +1,4 @@
+.{
+	.texture = "raw_meat.png",
+	.food = 3,
+}

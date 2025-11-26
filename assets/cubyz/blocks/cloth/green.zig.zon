@@ -1,0 +1,6 @@
+.{
+	.texture = "cubyz:cloth/green",
+	.item = .{
+		.texture = "cloth/green.png",
+	},
+}

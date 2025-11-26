@@ -1,0 +1,8 @@
+.{
+	.absorbedLight = 0x000001,
+
+	.texture = "cubyz:fog/yellow",
+	.item = .{
+		.texture = "fog/yellow.png",
+	},
+}

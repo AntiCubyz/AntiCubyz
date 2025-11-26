@@ -1,0 +1,12 @@
+.{
+	.tags = .{.air},
+	.blockHealth = 2,
+	.drops = .{},
+	.degradable = true,
+	.transparent = true,
+	.hasBackFace = true,
+	.replacable = true,
+	.collide = false,
+
+	.model = "cubyz:cube",
+}

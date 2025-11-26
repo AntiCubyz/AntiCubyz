@@ -1,0 +1,5 @@
+.{
+	.absorbedLight = 0x4001ff,
+	.emittedLight = 0x214200,
+	.texture = "cubyz:glass/uranium",
+}

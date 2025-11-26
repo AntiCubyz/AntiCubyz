@@ -1,0 +1,14 @@
+.{
+	.drops = .{
+		.{.items = .{"cubyz:leaves/oak", "cubyz:oak_branch"}},
+	},
+	.texture = "cubyz:leaves/oak",
+	.texture6 = "cubyz:branch/oak/dot",
+	.texture7 = "cubyz:branch/oak/half_line",
+	.texture8 = "cubyz:branch/oak/line",
+	.texture9 = "cubyz:branch/oak/bend",
+	.texture10 = "cubyz:branch/oak/intersection",
+	.texture11 = "cubyz:branch/oak/cross",
+	.lodReplacement = "cubyz:leaves/opaque/oak",
+	.opaqueVariant = "cubyz:leaves/opaque/oak",
+}

@@ -1,0 +1,17 @@
+.{
+	.tags = .{.choppable, .cuttable},
+	.blockHealth = 5,
+	.drops = .{
+		.{.items = .{"cubyz:log/cactus"}},
+	},
+	.rotation = "cubyz:direction",
+	.model = "cubyz:cube",
+	.texture = "cubyz:cactus",
+	.texture_top = "cubyz:cactus_top",
+	.texture_bottom = "cubyz:cactus_top",
+	.onTouch = .{
+		.type = .hurt,
+		.dps = 0.5,
+		.damageType = .spiky,
+	},
+}

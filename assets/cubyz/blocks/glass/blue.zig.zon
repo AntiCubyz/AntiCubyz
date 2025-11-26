@@ -1,0 +1,4 @@
+.{
+	.absorbedLight = 0xdc923c,
+	.texture = "cubyz:glass/blue",
+}

@@ -1,0 +1,24 @@
+.{
+	.tags = .{.cuttable, .mushroom},
+	.blockHealth = 0.2,
+	.drops = .{
+		.{.items = .{.auto}},
+	},
+	.replacable = true,
+	.viewThrough = true,
+	.degradable = true,
+	.absorbedLight = 0x010101,
+	.collide = false,
+	.rotation = "cubyz:torch",
+	.model = .{
+		.base = "cubyz:bolete/floor",
+		.side = "cubyz:bolete/shelf",
+	},
+	.texture = "cubyz:bolete_side",
+	.texture_top = "cubyz:bolete_top",
+	.texture_bottom = "cubyz:bolete_bottom",
+	.item = .{
+		.texture = "bolete.png",
+	},
+	.lodReplacement = "cubyz:air",
+}
